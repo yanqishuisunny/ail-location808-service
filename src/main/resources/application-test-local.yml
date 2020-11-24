@@ -1,0 +1,29 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://10.10.10.227:27019/ail-location
+  datasource:
+    url: jdbc:mysql://10.10.10.227:3308/xsun_gps?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: xsun_group
+    password: 1iDnwwKq2QNRfD9N
+  redis:
+    database: 0
+    host: 10.10.10.227
+    port: 6381
+  rabbitmq:
+    addresses: 10.10.10.227
+    port: 61615
+    username: user
+    password: password
+swagger:
+  enable: true
+abs:
+  queue:
+    default: abs.default.test-local
+jimi:
+  expires_in: 100
+  mapType_google: GOOGLE
+xinya:
+  xsungroupurl: http://test-tms.xsungroup.cn/api
+scheduler:
+  close: true

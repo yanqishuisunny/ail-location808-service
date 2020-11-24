@@ -1,0 +1,45 @@
+2020-10-20 13:31:05.845 [INFO ] com.ail.location.LocationServiceApplication - Starting LocationServiceApplication on LAPTOP-VGDMLQLD with PID 19784 (D:\workspace\ail-location-service\target\classes started by xinyang in D:\workspace\ail-location-service)
+2020-10-20 13:31:05.849 [INFO ] com.ail.location.LocationServiceApplication - The following profiles are active: dev-local
+2020-10-20 13:31:07.194 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-20 13:31:07.195 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-20 13:31:07.229 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 MongoDB repository interfaces.
+2020-10-20 13:31:07.556 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-20 13:31:07.558 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-10-20 13:31:07.593 [INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-10-20 13:31:07.956 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.ail.location.commom.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$932b6dc7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 13:31:08.041 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtProperties' of type [com.ail.location.config.JwtProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 13:31:08.042 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'JWTUtil' of type [com.ail.location.commom.shiro.JWTUtil] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 13:31:08.042 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.ail.location.commom.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 13:31:09.414 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 13:31:09.424 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'jwtFilter' of type [com.ail.location.commom.shiro.JWTFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 13:31:09.475 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 13:31:09.489 [INFO ] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-20 13:31:09.987 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-10-20 13:31:09.999 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-20 13:31:10.000 [INFO ] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-10-20 13:31:10.000 [INFO ] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-10-20 13:31:10.281 [INFO ] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-10-20 13:31:10.281 [INFO ] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4309 ms
+2020-10-20 13:31:10.571 [INFO ] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-10-20 13:31:10.704 [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-10-20 13:31:11.710 [INFO ] org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.10.10.227:27019], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-10-20 13:31:11.883 [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:1004}] to 10.10.10.227:27019
+2020-10-20 13:31:11.900 [INFO ] org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=10.10.10.227:27019, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=12921500}
+2020-10-20 13:31:12.302 [INFO ] org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:1005}] to 10.10.10.227:27019
+2020-10-20 13:31:13.516 [INFO ] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-20 13:31:13.748 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-20 13:31:14.260 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-10-20 13:31:14.399 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-10-20 13:31:14.423 [INFO ] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-10-20 13:31:14.472 [INFO ] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-10-20 13:31:14.991 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateDevicesUsingDELETE_1
+2020-10-20 13:31:15.029 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: queryLastUsingPOST_1
+2020-10-20 13:31:15.032 [INFO ] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: queryTrailAndMileageUsingPOST_1
+2020-10-20 13:31:15.095 [INFO ] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-10-20 13:31:15.130 [INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-10-20 13:31:15.134 [INFO ] com.ail.location.LocationServiceApplication - Started LocationServiceApplication in 10.002 seconds (JVM running for 13.268)
+2020-10-20 13:31:17.774 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-10-20 13:31:17.776 [INFO ] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-20 13:31:17.807 [INFO ] org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:1005}] to 10.10.10.227:27019 because the pool has been closed.
+2020-10-20 13:31:17.811 [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-10-20 13:31:17.815 [INFO ] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

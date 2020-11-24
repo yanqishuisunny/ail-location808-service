@@ -1,0 +1,3 @@
+2020-11-17 13:42:49.191 [DEBUG] org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class com.ail.location.model.mongo.Location for index information.
+2020-11-17 13:43:22.873 [DEBUG] org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class com.ail.location.model.mongo.Location for index information.
+2020-11-17 13:47:27.504 [DEBUG] org.springframework.data.mongodb.core.MongoTemplate - find using query: { "vehicle_no" : "京HS1122", "location_time" : { "$gte" : { "$date" : 1594257960000}, "$lte" : { "$date" : 1595042760000}}, "status" : 1} fields: Document{{}} for class: class com.ail.location.model.mongo.Location in collection: location_lately

@@ -1,0 +1,1 @@
+2020-10-20 13:31:12.193 [DEBUG] org.springframework.data.mongodb.core.index.MongoPersistentEntityIndexCreator - Analyzing class class com.ail.location.model.mongo.Location for index information.
